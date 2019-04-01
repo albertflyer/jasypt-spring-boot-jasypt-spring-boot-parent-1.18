@@ -1,6 +1,6 @@
-# jasypt-spring-boot-jasypt-spring-boot-parent-1.18
+# jasypt-spring-boot-jasypt-spring-boot-parent-1.18 目的 jasypt-spring-boot修改加解密用得盐的key
 
-
+jasypt-spring-boot修改加解密用得盐的key
 
 使用得jasypt-spring-boot得版本是1.18
 
