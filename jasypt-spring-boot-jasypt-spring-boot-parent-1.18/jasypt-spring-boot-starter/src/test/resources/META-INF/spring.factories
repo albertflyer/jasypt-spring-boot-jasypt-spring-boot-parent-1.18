@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.ulisesbocchio.jasyptspringboot.JasyptSpringBootAutoConfiguration
+
+org.springframework.cloud.bootstrap.BootstrapConfiguration=com.ulisesbocchio.jasyptspringboot.JasyptSpringCloudBootstrapConfiguration
