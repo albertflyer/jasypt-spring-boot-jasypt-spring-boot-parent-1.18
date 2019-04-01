@@ -1,4 +1,4 @@
-# jasypt-spring-boot-jasypt-spring-boot-parent-1.18 目的 jasypt-spring-boot修改加解密用得盐的key
+# jasypt-spring-boot-jasypt-spring-boot-parent-1.18 目的 修改加解密用得盐的key
 
 jasypt-spring-boot修改加解密用得盐的key
 
@@ -27,6 +27,13 @@ jasypt.encryptor.password = yourkey
 com.xxcompany.framework.info=xxcompany
 
 xxcompany 其实就是盐 但是这样即使看着也隐蔽性很高
+
+比原来工程改动的地方 可以搜索XXcompany 关键字 在idea里面搜*.* 范围 只有两处
+其他地方对pom改了一些 方便大家打包到自己公司私服里面
+
+大家可以看看
+
+
 --------------------- 
 作者：琅琊山二当家 
 来源：CSDN 
