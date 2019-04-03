@@ -16,9 +16,10 @@ jasypt-spring-boot修改加解密用得盐的key
 
 jasypt.encryptor.password = yourkey
 
-这个boot里面properties的属性值，要配置到apollo的glabal common里面
+这个boot里面properties的属性值，要配置到apollo的glabal common里面（或者每个项目组的各个项目里面都要单独配置1下）
 
-很多人可以看到 这样就太好对保密性，（或者每个项目组的各个项目里面都要单独配置1下）
+很多人可以看到 这样就对保密性不太好 ，大家搜一下百度都知道 是盐,算法找下就可以反过来解密，
+
 
 本文的目的就是给jasypt.encryptor.password 换个名字 比如看着不像是记录密钥的
 
