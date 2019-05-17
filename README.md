@@ -1,3 +1,4 @@
+1 purpose
 jasypt-spring-boot-jasypt-spring-boot-parent-1.18
 
 Modify salt  key  used for encryption or decryption
@@ -16,7 +17,12 @@ this seems too common, maybe most people do not think is one salt key ,haha !
 
 I just do it in our product environment.
 
+2  where i modify with the 1.18
 
+you can search keywords like 'XXcompany' in the project to find where i modify, 
+i also modify one pom.xml to deploy the jar to our company's  maven repositories
+
+you can also compare the project with official verson 1.18  to check the differences.
 
 
 
