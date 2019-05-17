@@ -1,3 +1,25 @@
+jasypt-spring-boot-jasypt-spring-boot-parent-1.18
+
+Modify salt  key  used for encryption or decryption
+
+when i use jasypt-spring-boot-parent-1.18, i need configure the properties like below :
+
+jasypt.encryptor.password = yourkey
+
+I think  everyone can modify or see the important salt key, maybe they use the key  do something that cause security problems
+
+i want to modify the left part of the configuration, for example like below
+
+com.xxcompany.framework.info = yourkey
+
+this seems too common, maybe most people do not think is one salt key ,haha ! 
+
+I just do it in our product environment.
+
+
+
+
+
 # jasypt-spring-boot-jasypt-spring-boot-parent-1.18 目的 修改加解密用得盐的key
 
 jasypt-spring-boot修改加解密用得盐的key
