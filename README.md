@@ -25,6 +25,11 @@ i also modify one pom.xml to deploy the jar to our company's  maven repositories
 you can also compare the project with official verson 1.18  to check the differences.
 
 
+please watch the image below to checke 
+several changed places compare this project from the offical 1.18 version 
+![image](https://camo.githubusercontent.com/074023671c43d373b91a203b065850b05fd55e33/68747470733a2f2f696d672d626c6f672e6373646e696d672e636e2f32303139303532373136313034393839332e706e67)
+
+
 
 # jasypt-spring-boot-jasypt-spring-boot-parent-1.18 目的 修改加解密用得盐的key
 
